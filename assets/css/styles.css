@@ -75,6 +75,21 @@ body {
     width: calc(100% - 600px);
     margin-inline: 300px;
   }
+
+  .top-bar {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .top-bar__logo { order: 0; }
+
+  .top-bar__nav {
+    order: 1;
+    justify-self: end;
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 1100px) {
