@@ -94,7 +94,10 @@ body {
 
 @media (max-width: 1100px) {
   :root { --header-inset: clamp(24px, 6vw, 72px); }
-  .hero { background-size: auto 100%; }
+  .hero {
+    background-color: transparent;
+    background-size: auto 100%;
+  }
   .top-bar {
     grid-template-columns: auto minmax(0, 1fr);
     align-items: center;
