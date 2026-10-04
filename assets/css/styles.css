@@ -72,8 +72,8 @@ body {
 
 @media (min-width: 1101px) {
   .hero {
-    width: calc(100% - 300px);
-    margin-inline: 150px;
+    width: calc(100% - 600px);
+    margin-inline: 300px;
   }
 }
 
