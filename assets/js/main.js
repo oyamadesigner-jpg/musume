@@ -1,5 +1,5 @@
 const menuToggle = document.querySelector('.menu-toggle');
-const mobileNav = document.querySelector('.mobile-nav');
+const mobileNav = document.querySelector('#primary-navigation');
 
 menuToggle?.addEventListener('click', () => {
   const isOpen = mobileNav.classList.toggle('is-open');
