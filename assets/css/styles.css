@@ -83,7 +83,12 @@ body {
     padding-left: 50px;
   }
 
-  .top-bar__logo { order: 0; }
+  .top-bar__logo {
+    order: 0;
+    width: clamp(83.2px, 9.1vw, 119.6px);
+  }
+
+  .top-bar__logo img { height: 75.4px; }
 
   .top-bar__nav {
     order: 1;
@@ -112,6 +117,10 @@ body {
     justify-self: end;
     padding-top: 0;
   }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+  :root { --header-inset: 100px; }
 }
 
 @media (max-width: 700px) {
